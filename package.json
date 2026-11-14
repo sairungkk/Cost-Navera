@@ -1,0 +1,13 @@
+{
+  "name": "bar-stock-control",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-file bar stock / costing app (index.html) with a local Node server that mirrors saves into Excel",
+  "scripts": {
+    "serve": "node auto_excel_server.js",
+    "test": "node _verify_sale_window.js && node _verify_sale_save_flow.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

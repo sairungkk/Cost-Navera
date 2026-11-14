@@ -1,0 +1,60 @@
+{
+  "staff": {
+    "today": "2026-11-15",
+    "saleMinISO": "2026-11-13",
+    "expectedMin": "2026-11-13",
+    "inputMin": "2026-11-13",
+    "inputMax": "2026-11-15",
+    "hint": "Staff access: sales can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "movMin": "2026-11-13",
+    "movMax": "2026-11-15",
+    "movHint": "Staff access: stock movements can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "window": {
+      "0": true,
+      "1": false,
+      "-3": false,
+      "-2": true,
+      "-1": true
+    },
+    "okMinus2": true,
+    "okMinus3": false,
+    "okTomorrow": false,
+    "movOkMinus2": true,
+    "movOkMinus3": false
+  },
+  "addTest": {
+    "item": "chang Beer",
+    "before": 19,
+    "beforePending": 0,
+    "afterInvalid": 19,
+    "afterInvalidPending": 0,
+    "afterValidPending": 1,
+    "afterValid": 20,
+    "expectedDate": "2026-11-13",
+    "addedDate": "2026-11-13",
+    "addedQty": 2
+  },
+  "movTest": {
+    "before": 5,
+    "afterInvalid": 5,
+    "afterValid": 6,
+    "expectedDate": "2026-11-13",
+    "addedDate": "2026-11-13",
+    "addedQty": 2
+  },
+  "admin": {
+    "min": "",
+    "max": "",
+    "hintHidden": true,
+    "movMin": "",
+    "movMax": "",
+    "movHintHidden": true
+  },
+  "dialogs": [
+    "Staff access: sales can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "Staff access: sales can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "Staff access: sales can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "Staff access: sales can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15).",
+    "Staff access: stock movements can be added, edited or deleted for the last 3 days only (2026-11-13 to 2026-11-15)."
+  ]
+}
